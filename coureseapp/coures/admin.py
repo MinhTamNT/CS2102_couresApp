@@ -5,3 +5,4 @@ class CategoryAmin(admin.ModelAdmin):
 # Register your models here.
 admin.site.register(Category,CategoryAmin)
 admin.site.register(Course)
+
