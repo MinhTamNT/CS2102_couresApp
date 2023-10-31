@@ -81,13 +81,10 @@ DATABASES = {
     'ENGINE': 'django.db.backends.mysql',
     'NAME': 'coursedb',
     'USER': 'root',
-    'PASSWORD': 'Admin@123',
+    'PASSWORD': '120900',
     'HOST': '' # mặc định localhost
     }
 }
-import pymysql
-pymysql.install_as_MySQLdb()
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

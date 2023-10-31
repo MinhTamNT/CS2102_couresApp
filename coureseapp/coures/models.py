@@ -25,7 +25,7 @@ class Course(BaseModel):
     tags = models.ManyToManyField('Tag')
 
     def __str__(self):
-        return self.name
+        return self.subject
     class Meta:
         unique_together = ('subject', 'category')
 
